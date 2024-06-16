@@ -15,4 +15,5 @@ else{
 
 logoutBtn.addEventListener('click',function(){
     localStorage.removeItem('userName');
+    location.href = 'index.html';
 });
